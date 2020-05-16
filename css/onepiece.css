@@ -71,7 +71,7 @@ input[type=text] {
 .center{
 	text-align: center;
 }
-input[type=login]{
+input[type=button]{
 	background-color: #7f2f00;
   color: white;
   padding: 5px;
