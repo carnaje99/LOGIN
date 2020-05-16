@@ -1,0 +1,142 @@
+html, body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+
+html{
+	background-image: url('../img/background.png')
+
+}
+header{
+/*background-color: #ffbf80; 
+background-image: url('../img/luffy.png');
+background-repeat: repeat-y;*/
+ padding:  10px 10px 10px 10px;
+ text-align: center;
+ height: 600px;
+}
+
+h1{
+	font-size: 112px;
+	color: white;
+	margin-top: 30px;
+	text-shadow: 0 4px 22px #262626;
+	text-transform: uppercase;
+	font-family: lato black, sans-serif; 
+			
+}
+
+header img{
+	border-radius: 10px;
+	width: 100%;
+	box-shadow: 0 10px 20px #262626;
+
+}
+	
+.content{
+
+	max-width: 900px;
+	padding: 0 20px;
+	margin: 0 auto;
+	margin-top: 100px;
+
+}
+div.LOGINBOX{
+
+margin: auto;
+border: 8px solid white;
+border-radius: 18px;
+padding: 10px 20px 70px 20px;
+width:70%;
+background-image: url('../img/login.png');
+}
+label{
+	font-size: 18px;
+	font-family: lato black, sans-serif;
+	color: white;
+
+}
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 8px;
+	background-color: #ffd699;
+	color: grey;
+	font-size: 18px;
+}
+
+.center{
+	text-align: center;
+}
+input[type=login]{
+	background-color: #7f2f00;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  font-family: lato black, sans-serif;
+  box-shadow: 1px 1px 3px #ffbf80;
+  margin-top: 20px;
+
+}
+input:focus {
+  border: 3px solid #7f2f00;
+}
+
+h2.login{
+font-size: 40px;
+color: #7f2f00;
+text-align: center;
+font-family: lato black, sans-serif;
+}
+img.big-images{
+	width: 100%;
+	margin-top: 100px;
+}
+
+h2.AboutMe{ 
+	font-size: 35px;
+	color: black;
+	font-style: bold
+}
+p.caption{
+	font-size: 20px;
+	line-height:150%;
+	text-align: justify;
+	text-indent: 50px;
+	font-family: lato regular, sans-serif;
+}
+
+a{
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+  background-color: yellow;
+}
+
+footer{
+	margin-top: 100px;
+	padding: 40px 80px;
+	background-color: #ffd480;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 3px;
+}
+/*<header>
+			<img src="img/header.png">
+			<h1> One Piece Library</h1>
+		</header>
